@@ -44,9 +44,38 @@ public class VsphereConnection extends VmcSamplesAbstractBase {
     private Sddcs sddcsStub;
     private VM vmStub;
     private ApiClient vmcClient;
-    private VapiAuthenticationHelper vapiAuthHelper;
-    private String orgId, sddcId;
-
+    Option orgOption = Option.builder()
+            .longOpt("org_id")
+            .desc("Specify the organization id")
+            .argName("ORGANIZATION ID")
+            .required(true)
+            .hasArg()
+            .build();
+    Option orgOption = Option.builder()
+            .longOpt("org_id")
+            .desc("Specify the organization id")
+            .argName("ORGANIZATION ID")
+            .required(true)
+            .hasArg()
+            .build();Option orgOption = Option.builder()
+            .longOpt("org_id")
+            .desc("Specify the organization id")
+            .argName("ORGANIZATION ID")
+            .required(true)
+            .hasArg()
+            .build();Option orgOption = Option.builder()
+            .longOpt("org_id")
+            .desc("Specify the organization id")
+            .argName("ORGANIZATION ID")
+            .required(true)
+            .hasArg()
+            .build();Option orgOption = Option.builder()
+            .longOpt("org_id")
+            .desc("Specify the organization id")
+            .argName("ORGANIZATION ID")
+            .required(true)
+            .hasArg()
+            .build();
     /**
      * Define the options specific to this sample and configure the sample using
      * command-line arguments or a config file

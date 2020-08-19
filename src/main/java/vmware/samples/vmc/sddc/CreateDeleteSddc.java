@@ -35,11 +35,22 @@ import vmware.samples.vmc.helpers.VmcTaskHelper;
  */
 public class CreateDeleteSddc extends VmcSamplesAbstractBase {
     private Sddcs sddcsStub;    
-    private ApiClient apiClient;    
-    private String orgId, sddcName, sddcId;
-    public static final int TASK_POLLING_DELAY_IN_MILLISECONDS = 500;
-    public static final String SDDC_REGION = "US_WEST_2";
-    public static final String SDDC_PROVIDER = "AWS";
+    prrotected void parseArgs(String[] args) {
+        Option orgOption = Option.builder()
+                .longOpt("org_id")
+                .desc("Specify the organization id")
+                .argName("ORGANIZATION ID")
+                .required(true)
+                .hasArg()
+                .build();
+        Option sddcOption = Option.builder()
+                .longOpt("sddc_name")
+                .desc("Specify the name of the sddc to be created")
+                .argName("SDDC NAME")
+                .required(true)
+                .hasArg()
+                .build();
+        List<Option> optionLisER = "AWS";
     public static final int NUM_HOSTS = 4;
 
     /**
