@@ -82,7 +82,31 @@ public class VsphereConnection extends VmcSamplesAbstractBase {
      *
      * @param args command line arguments passed to the sample
      */
-    protected void parseArgs(String[] args) {
+    private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;private Sddcs sddcsStub;
+    private VM vmStub;
+    private ApiClient vmcClient;
+    private VapiAuthenticationHelper vapiAuthHelper;
+    private String orgId, sddcId;protected void parseArgs(String[] args) {
         Option orgOption = Option.builder()
                 .longOpt("org_id")
                 .desc("Specify the organization id")

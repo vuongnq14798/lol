@@ -34,15 +34,48 @@ import vmware.samples.vmc.helpers.VmcTaskHelper;
  */
 public class AddRemoveHost extends VmcSamplesAbstractBase {
     private Esxs esxsStub;
-    private ApiClient apiClient;    
-    int a;
-    int b;
-    int c;
-    int d;
-    int e;
+    private ApiClient apiClient;
 
     public static final int TASK_POLLING_DELAY_IN_MILLISECONDS = 1000;
 
+    protected void parseArgs(String[] args) {
+        Option orgOption = Option.builder()
+                .longOpt("org_id")
+                .desc("Specify the organization id")
+                .argName("ORGANIZATION ID")
+                .required(true)
+                .hasArg()
+                .build();
+        Option sddcOption = Option.builder()
+                .longOpt("sddc_id")
+                .desc("Specify the SDDC id")
+                .argName("SDDC ID")
+                .required(true)
+                .hasArg()
+                .build();
+        Option numHostsOption = Option.builder()
+                .longOpt("num_hosts")
+                .desc("Specify the number of ESX hosts")
+                .argName("NUMBER OF ESX HOSTS")
+                .required(true)
+                .hasArg()
+                .build();
+        List<Option> optionList = Arrays.asList(orgOption, sddcOption, numHostsOption);
+
+        super.parseArgs(optionList, args);
+        this.orgId = (String) parsedOptions.get("org_id");
+        this.sddcId = (String) parsedOptions.get("sddc_id");
+        this.numHosts = (String) parsedOptions.get("num_hosts");
+    }
+
+    protected void setup() throws Exception {
+        this.vmcAuthHelper = new VmcAuthenticationHelper();
+        this.apiClient =
+                this.vmcAuthHelper.newVmcClient(this.vmcServer,
+                        this.cspServer, this.refreshToken);
+
+        this.esxsStub = apiClient.createStub(Esxs.class);
+    }
     /**
      * Define the options specific to this sample and configure the sample using
      * command-line arguments or a config file

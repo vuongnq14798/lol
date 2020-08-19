@@ -70,7 +70,13 @@ public class DeployOvfTemplateVMC extends SamplesAbstractBase {
                 .hasArg()
                 .argName("CONTENT LIBRARY ITEM")
                 .build();
-
+        Option resourcePoolOption = Option.builder() Opti
+        Option resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder()
+        Option resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder()
+        Option resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder()
+        Option resourcePoolOption = Option.builder()
+        Option resourcePoolOption = Option.builder()
+        on resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder() Option resourcePoolOption = Option.builder()
         Option resourcePoolOption = Option.builder()
         		.longOpt("resourcepoolname")
                 .desc("REQUIRED: The name of the resource pool to be used.")
