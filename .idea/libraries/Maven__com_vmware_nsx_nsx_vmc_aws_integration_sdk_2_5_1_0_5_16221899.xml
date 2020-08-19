@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.vmware.nsx:nsx-vmc-aws-integration-sdk:2.5.1.0.5.16221899">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/nsx/nsx-vmc-aws-integration-sdk/2.5.1.0.5.16221899/nsx-vmc-aws-integration-sdk-2.5.1.0.5.16221899.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/nsx/nsx-vmc-aws-integration-sdk/2.5.1.0.5.16221899/nsx-vmc-aws-integration-sdk-2.5.1.0.5.16221899-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/nsx/nsx-vmc-aws-integration-sdk/2.5.1.0.5.16221899/nsx-vmc-aws-integration-sdk-2.5.1.0.5.16221899-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
