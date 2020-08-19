@@ -35,9 +35,12 @@ import vmware.samples.vmc.helpers.VmcTaskHelper;
 public class AddRemoveHost extends VmcSamplesAbstractBase {
     private Esxs esxsStub;
     private ApiClient apiClient;    
-    private String orgId, sddcId, numHosts;
-    public static final String ADD_HOST_ACTION = "add";
-    public static final String REMOVE_HOST_ACTION = "remove";
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+
     public static final int TASK_POLLING_DELAY_IN_MILLISECONDS = 1000;
 
     /**

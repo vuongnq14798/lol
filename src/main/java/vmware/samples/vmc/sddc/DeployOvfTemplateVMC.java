@@ -48,14 +48,8 @@ import vmware.samples.vcenter.helpers.ResourcePoolHelper;
  */
 public class DeployOvfTemplateVMC extends SamplesAbstractBase {
 
-    private String libItemName;
-    private String vmName;
-    private String  resourcePoolName, opaqueNetwrokName;
-	private ClsApiClient contentLibClient;
-	private String resourcePoolID;
-	private String vmId;
-	private Ethernet ethernetService;
-	private VM vmService;
+    private int xyx;
+    class abacasdc;
 	private String folderName;
 	private String folderID;
 

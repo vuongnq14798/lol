@@ -10,38 +10,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.vmware.vapi:oidc-oauth2-sdk:0.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vmc:vmc-draas-bindings:1.16.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-runtime:2.15.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-authentication:2.15.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-samltoken:2.15.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware:vsphereautomation-client-sdk:3.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vmc:vmc-bindings:1.29.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-vmc-sdk:2.15.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-policy-java-sdk:2.5.1.0.5.16221899" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-aws-integration-sdk:2.5.1.0.5.16221899" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-sdk-common:2.5.1.0.5.16221899" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vim25:vim25:6.7.3" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.sso:ssoclient:6.7.3" level="project" />
-    <orderEntry type="library" name="Maven: com.vmware.vsphereautomation.lookup:vsphereautomation-lookupservice:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.12" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.10" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.12" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
-    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -83,5 +51,37 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: com.vmware.vapi:oidc-oauth2-sdk:0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vmc:vmc-draas-bindings:1.16.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-runtime:2.15.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-authentication:2.15.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-samltoken:2.15.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware:vsphereautomation-client-sdk:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vmc:vmc-bindings:1.29.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vapi:vapi-vmc-sdk:2.15.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-policy-java-sdk:2.5.1.0.5.16221899" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-aws-integration-sdk:2.5.1.0.5.16221899" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.nsx:nsx-vmc-sdk-common:2.5.1.0.5.16221899" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vim25:vim25:6.7.3" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.sso:ssoclient:6.7.3" level="project" />
+    <orderEntry type="library" name="Maven: com.vmware.vsphereautomation.lookup:vsphereautomation-lookupservice:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.12" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.10" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.12" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
+    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
   </component>
 </module>
