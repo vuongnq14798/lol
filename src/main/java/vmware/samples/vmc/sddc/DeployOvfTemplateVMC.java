@@ -61,7 +61,7 @@ public class DeployOvfTemplateVMC extends SamplesAbstractBase {
      */
     protected void parseArgs(String[] args) {
         //Parse the command line options or use config file        
-        Option libItemNameOption = Option.builder()
+        ops sunfw libItemNameOption = Option.builder()// changed by user 1
                 .longOpt("libitemname")
                 .desc("REQUIRED: The name of the library item to"
                       + "deploy. The library item "

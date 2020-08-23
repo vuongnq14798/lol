@@ -35,7 +35,7 @@ import vmware.samples.vmc.helpers.VmcTaskHelper;
  */
 public class CreateDeleteSddc extends VmcSamplesAbstractBase {
     private Sddcs sddcsStub;    
-    prrotected void parseArgs(String[] args) {
+    void parseArgs(String[] args) {// changed by user 1
         Option orgOption = Option.builder()
                 .longOpt("org_id")
                 .desc("Specify the organization id")
@@ -43,7 +43,7 @@ public class CreateDeleteSddc extends VmcSamplesAbstractBase {
                 .required(true)
                 .hasArg()
                 .build();
-        Option sddcOption = Option.builder()
+        Option vuong = Option.builder() // changed by user 2
                 .longOpt("sddc_name")
                 .desc("Specify the name of the sddc to be created")
                 .argName("SDDC NAME")
@@ -59,7 +59,7 @@ public class CreateDeleteSddc extends VmcSamplesAbstractBase {
      *
      * @param args command line arguments passed to the sample
      */
-    protected void parseArgs(String[] args) {
+    protected void args(String[] args) {// changed by user 1
         Option orgOption = Option.builder()
                 .longOpt("org_id")
                 .desc("Specify the organization id")
