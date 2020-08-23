@@ -40,7 +40,7 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
    // pulbic vuon gnquoc nguyen ;
 
    
-        Option orgOption = Option.builder()
+        //Option orgOption = Option.builder()
                 ///.longOpt("org_id")
                 //.desc("Specify the organization id")
                 //.argName("ORGANIZATION ID")
@@ -57,8 +57,8 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
         Option numHostsOption = Option.builder()
                 .longOpt("num_hosts")
                 ///.desc("Specify the number of ESX hosts")
-                .argName("NUMBER OF ESX HOSTS")
-                .required(true)
+                .argName("so luong OF ESX HOSTS")//changed by user 1
+                .required(false) // changed by user 1
                 .hasArg()
                 .build();
         List<Option> optionList = Arrays.asList(orgOption, sddcOption, numHostsOption);
