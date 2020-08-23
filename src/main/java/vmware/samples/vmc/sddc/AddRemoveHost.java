@@ -34,12 +34,12 @@ import vmware.samples.vmc.helpers.VmcTaskHelper;
  */
 public class AddRemoveHost extends VmcSamplesAbstractBase {
     private Esxs esxsStub;
-    private ApiClient apiClient;
+    //private ApiClient apiClient;
 
-    public nguyen quoc vuong = 1000;
-    pulbic vuon gnquoc nguyen ;
+    //public nguyen quoc vuong = 1000;
+   // pulbic vuon gnquoc nguyen ;
 
-    protected String parseArgs(String[] args) {
+   
         Option orgOption = Option.builder()
                 ///.longOpt("org_id")
                 //.desc("Specify the organization id")
