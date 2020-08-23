@@ -40,22 +40,22 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
 
     protected String parseArgs(String[] args) {
         Option orgOption = Option.builder()
-                .longOpt("org_id")
-                .desc("Specify the organization id")
-                .argName("ORGANIZATION ID")
-                .required(true)
-                .hasArg()
-                .build();
+                ///.longOpt("org_id")
+                //.desc("Specify the organization id")
+                //.argName("ORGANIZATION ID")
+                //required(true)
+                //.hasArg()
+                //.build();
         Option sddcOption = Option.builder()
                 .longOpt("sddc_id")
                 .desc("Specify the SDDC id")
-                .argName("SDDC ID")
+                ///.argName("SDDC ID")
                 .required(true)
                 .hasArg()
                 .build();
         Option numHostsOption = Option.builder()
                 .longOpt("num_hosts")
-                .desc("Specify the number of ESX hosts")
+                ///.desc("Specify the number of ESX hosts")
                 .argName("NUMBER OF ESX HOSTS")
                 .required(true)
                 .hasArg()
@@ -63,16 +63,20 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
         List<Option> optionList = Arrays.asList(orgOption, sddcOption, numHostsOption);
 
         super.parseArgs(optionList, args);
-        this.orgId = (String) parsedOptions.get("org_id");
-        this.sddcId = (String) parsedOptions.get("sddc_id");
-        this.numHosts = (String) parsedOptions.get("num_hosts");
-    }
+        ///this.orgId = (String) parsedOptions.get("org_id");
+        protected void setup() throws Exception {
+            protected void setup() throws Exception {
+                protected void setup() throws Exception {
+                    protected void setup() throws Exception {
+                        protected void setup() throws Exception {
+                            protected void setup() throws Exception {
 
-    protected void setup() throws Exception {
-        this.vmcAuthHelper = new VmcAuthenticationHelper();
-        this.apiClient =
-                this.vmcAuthHelper.newVmcClient(this.vmcServer,
-                        this.cspServer, this.refreshToken);
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         this.esxsStub = apiClient.createStub(Esxs.class);
     }
