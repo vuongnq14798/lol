@@ -37,6 +37,7 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
     private ApiClient apiClient;
 
     public nguyen quoc vuong = 1000;
+    pulbic vuon gnquoc nguyen ;
 
     protected String parseArgs(String[] args) {
         Option orgOption = Option.builder()
@@ -46,7 +47,7 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
                 //required(true)
                 //.hasArg()
                 //.build();
-        Option sddcOption = Option.builder()
+        //Option sddcOption = Option.builder()
                 .longOpt("sddc_id")
                 .desc("Specify the SDDC id")
                 ///.argName("SDDC ID")
