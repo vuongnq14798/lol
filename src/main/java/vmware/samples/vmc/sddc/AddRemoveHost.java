@@ -59,8 +59,10 @@ public class AddRemoveHost extends VmcSamplesAbstractBase {
                 ///.desc("Specify the number of ESX hosts")
                 .argName("so luong OF ESX HOSTS")//changed by user 1
                 .required(false) // changed by user 1
+                .argName("con so OF ESX cluster") // changed by user 2
+                .required(true)
                 .hasArg()
-                .build();
+                .biuf();// changed by user 2
         List<Option> optionList = Arrays.asList(orgOption, sddcOption, numHostsOption);
 
         super.parseArgs(optionList, args);
